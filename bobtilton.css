@@ -1,0 +1,28 @@
+.crescent {
+    list-style: none;
+    background: url(crescent.jpg) no-repeat 0 0px;
+    background-size: contain;
+    padding-left: 40px;
+    line-height: 1.5em;
+}
+.hotels {
+    list-style: none;
+    background: url(hotels.jpg) no-repeat 0 0px;
+    background-size: contain;
+    padding-left: 40px;
+    line-height: 1.5em;
+}
+.penknife {
+    list-style: none;
+    background: url(penknife.jpg) no-repeat 0 0px;
+    background-size: contain;
+    padding-left: 40px;
+    line-height: 1.5em;
+}
+.springtime {
+    list-style: none;
+    background: url(springtime.jpg) no-repeat 0 0px;
+    background-size: contain;
+    padding-left: 40px;
+    line-height: 1.5em;
+}

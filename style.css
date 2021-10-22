@@ -1,0 +1,19 @@
+BODY {
+    background: url(midwest.jpg);
+}
+
+div {
+    background: rgba(101, 109, 74, 0.8);
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+}
+
+H1 {
+    background: rgba(51, 61, 41, 1);
+    color: #fff;
+}
+
+ADDRESS {
+    color: #fff;
+}
