@@ -3,37 +3,47 @@
     <TITLE> Эмо музыка </TITLE>
 <!--    <META NAME="Description" CONTENT="Информация о жанре">-->
     <meta charset="utf-8">
-    <style>
-        BODY {
-            background: url(midwest.jpg);
-        }
-
-        div {
-            background: rgba(101, 109, 74, 0.8);
-            color: #fff;
-            padding: 5px;
-            font-size: 20px;
-        }
-
-        H1 {
-            background: rgba(51, 61, 41, 1);
-            color: #fff;
-        }
-
-        ADDRESS {
-            color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </HEAD>
 
 <BODY LINK="BLUE" , ALINK="GREEN" , VLINK="RED">
-<H1> That's life: it's so social <BR>
-    So physical <BR>
-    So <I> emotional </I> <BR>
-</H1>
+<!--<H1> That's life: it's so social <BR>-->
+<!--    So physical <BR>-->
+<!--    So <I> emotional </I> <BR>-->
+<!--</H1>-->
 <H2> О жанре </H2>
-<div>
-    <b> Э́мо </b>(англ. emo, сокращение от «эмоциональный») — стиль рок-музыки, характеризуемый мелодичной
+div class="wrap">
+<!-- tabsmenu -->
+<ul class="flex tabsmenu tabsmenu">
+    <li class="active">Вкладка 1</li>
+    <li>Вкладка 2</li>
+    <li>Вкладка 3</li>
+    <li>Вкладка 4</li>
+</ul>
+
+<div class="container">
+    <div>
+        <h3>Контейнер 1</h3>
+        <p>Aliquam erat volutpat. Fusce pellentesque odio in posuere vestibulum. Phasellus varius elit orci, et viverra libero hendrerit a. Proin ut nunc a tellus sagittis dictum scelerisque ut arcu. Sed molestie nisl a turpis imperdiet, nec aliquam magna egestas. Nulla lacinia sem id neque laoreet, vitae blandit sapien gravida.</p>
+    </div>
+    <div hidden>
+        <h3>Контейнер 2</h3>
+        <p>Cras scelerisque aliquam neque id pretium. Praesent sit amet condimentum nisi. Ut molestie ligula condimentum dignissim porta. Quisque sollicitudin dictum massa, id fermentum lectus tincidunt eu. Nullam sed varius sapien. Cras at lacinia erat. Curabitur placerat nibh a turpis fermentum pellentesque.</p>
+    </div>
+    <div hidden>
+        <h3>Контейнер 3</h3>
+        <p>Quisque erat arcu, cursus vitae elit sed, varius tincidunt massa. Vivamus non ex at ante cursus tempor. Morbi sed velit ac eros posuere sodales. Proin blandit rutrum libero, ac euismod nibh ullamcorper consequat. Curabitur in ex nisl. Mauris et elementum neque. Donec at pharetra risus. Sed eu auctor libero, et auctor magna.</p>
+    </div>
+    <div hidden>
+        <h3>Контейнер 4</h3>
+        <p>Suspendisse ut vulputate ante. Aliquam ut ullamcorper velit. Nullam vitae pellentesque leo. Morbi mollis vel ligula a auctor. Sed metus mauris, mattis ut molestie in, aliquam at sem. Nullam pellentesque libero a tellus laoreet, eu fringilla arcu cursus. Mauris dignissim convallis pretium.</p>
+    </div>
+</div>
+<!-- /tabsmenu -->
+</div>
+<script src="tabsmenu.function.js"></script>
+
+<b> Э́мо </b>(англ. emo, сокращение от «эмоциональный») — стиль рок-музыки, характеризуемый мелодичной
     музыкальностью и экспрессивной лирикой. <BR>
     <BLOCKQUOTE> Появился в середине 1980-х в Вашингтоне, где был известен как «эмоциональный хардкор-панк» или
         «эмокор», разработанный такими группами, как Rites of Spring и Embrace.
@@ -83,7 +93,7 @@
             80s, 90s
         </TD>
         <TD ALIGN=CENTER>
-            <a href="bobtilton.html"
+            <a href="Bands/Bob%20Tilton/bobtilton.html"
                target="_self"
                title="Bob Tilton"> Bob Tilton
             </a>
