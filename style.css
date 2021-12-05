@@ -1,13 +1,11 @@
 BODY {
-    background-image: url(daria_dark.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(back.jpg);
+    background-repeat: repeat;
     font-family: "Trebuchet MS";
     font-size: 14px;
 }
 
 div {
-    /*background: rgba(101, 109, 74, 0.8);*/
     color: #fff;
     padding: 5px;
     font-size: 20px;
@@ -32,15 +30,16 @@ ADDRESS {
 .container > div {
     margin-bottom: 50px;
     padding: 20px;
+    background: rgba(0, 0, 0, 50%);
 }
 
 /*.flex панелька с кнопками */
-.flex { display: -webkit-box; display: -ms-flexbox; display: flex; background: #F1ECC3; }
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; background: #363636 }
 html, body, .wrap { height: 100%; line-height: 1;}
 .wrap { position: relative; margin: 0 auto; padding-top: 50px;}
 
 /* tabsmenu */
 .tabsmenu { margin-bottom: -1px;margin-top: 10px}
-.tabsmenu li { width: 100px; height: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 15px; color: #333; -webkit-user-select:none; user-select:none; cursor: pointer; }
+.tabsmenu li { width: 100px; height: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 15px; color: #fff; -webkit-user-select:none; user-select:none; cursor: pointer; }
 .tabsmenu .active { color: #fff; background: #515E63; border-radius: 5px 5px 0 0; cursor: default; }
 .container > div { margin-bottom: 50px; padding: 20px; }
