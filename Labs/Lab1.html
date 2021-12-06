@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var fisrtname = prompt('Введите фамилию:', fisrtname);
+    var secondname = prompt('Введите имя:', secondname);
+    var lastname = prompt('Введите отчество:', lastname);
+    var answer = confirm("Яскунова Анна Юрьевна Все верно?");
+    if (answer == true) {
+        if (fisrtname == "Яскунова" && secondname == "Анна" && lastname=="Юрьевна")
+        {
+            alert('Молодец, Яскунова Анна Юрьевна');
+        }
+        else {
+            alert('Ошибка в данных');
+        }
+    } else {
+        alert('Ошибка в данных');
+    }
+</script>
+</body>
+</html>

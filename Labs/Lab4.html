@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1 {color:red;text-align:center;}
+        body {background-color:PaleGreen; font-weight:bold;}
+        input {font-weight:bold;}
+    </style>
+    <script>
+        function hello()
+        {
+            var p=document.getElementById('n');
+            na=p.value;
+            var p=document.getElementById('y');
+            ye=p.value;
+            var p=document.getElementById('c');
+            ci=p.value;
+            var win=window.open("","","width=400,height=500");
+            win.document.open();
+            var str = "<h1>О себе</h1><hr><P>";
+            win.document.write(str);
+            var str = "<h1>"+na+"</h1><hr><P>" + "<h1>"+ye+"</h1><hr><P>" + "<h1>"+ci+"</h1><hr><P>";
+            win.document.write(str);
+            str ='<input type="button" value="закрыть"' +'onClick="window.close();">';
+            win.document.write(str);
+            win.document.close();
+        }
+    </script>
+</head>
+<body>
+<h1>Анкета</h1>
+<hr>
+<form>
+    <br>ФИО
+    <input type=text  name="name"
+           id='n' size="30">
+   <br>Год рождения
+    <input type=text  name="year"
+           id='y' size="30">
+    <br>Город проживания
+    <input type=text name="city"
+           id='c' size="30">
+    <br>
+    <input type=button value="Сформировать биографию" OnClick="hello()">
+    <hr>
+</form>
+</body>
+</html>

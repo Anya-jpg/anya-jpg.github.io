@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Data = new Date();
+    Year = Data.getFullYear();
+    Month = Data.getMonth();
+    Day = Data.getDate();
+
+    // Преобразуем месяца
+    switch (Month)
+    {
+        case 0: fMonth="января"; break;
+        case 1: fMonth="февраля"; break;
+        case 2: fMonth="марта"; break;
+        case 3: fMonth="апреля"; break;
+        case 4: fMonth="мае"; break;
+        case 5: fMonth="июня"; break;
+        case 6: fMonth="июля"; break;
+        case 7: fMonth="августа"; break;
+        case 8: fMonth="сентября"; break;
+        case 9: fMonth="октября"; break;
+        case 10: fMonth="ноября"; break;
+        case 11: fMonth="декабря"; break;
+    }
+    var year = parseInt(prompt('ВВЕДИТЕ ГОД РОЖДЕНИЯ (в формате YYYY)'));
+    var month = parseInt(prompt('ВВЕДИТЕ НОМЕР МЕСЯЦ РОЖДЕНИЯ'));
+    var day = parseInt(prompt('ВВЕДИТЕ ДЕНЬ РОЖДЕНИЯ'));
+
+    if ((year.toString().length != 4)
+        || (month < 1 || month > 12)
+        || (day < 1 || day > 31)
+    ) throw new Error('invalid date');
+
+    var arDay = ['воскресенье', 'понедельник', 'вторник', 'среду', 'четверг', 'пятницу', 'субботу'];
+    var arMonth = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+    var date = new Date(year, (month - 1), day),
+        currentDate = new Date(),
+        days = Math.round((currentDate - date)/86400000);
+
+    // Вывод
+    document.body.innerHTML = "Сегодня " + Day + " " + fMonth + " " + Year + " года. <br/> "+"Я\040родился\040" +
+        day + "\040" + arMonth[(month - 1)] + "\040" +
+        year + "\040в\040" + arDay[date.getDay()] + "\040 " + days + " дней назад";
+</script>
+</body>
+</html>
