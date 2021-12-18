@@ -1,7 +1,7 @@
 BODY {
     background-image: url(back.jpg);
     background-repeat: repeat;
-    font-family: "Trebuchet MS";
+    font-family: "Georgia";
     font-size: 14px;
 }
 
@@ -9,15 +9,33 @@ div {
     color: #fff;
     padding: 5px;
     font-size: 20px;
-    align: "justify";
 }
 
 H1 {
     color: #fff;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.tdUp{
+    text-align: left;
+    background: #FFFFFF;
+    width: 113px;
+    vertical-align: top;
+}
+
+.tdLow {
+    text-align: left;
+    background: #333333;
+    width: 113px;
+    vertical-align: top;
 }
 
 ADDRESS {
     color: #fff;
+    text-align: right;
+    margin-right: 20%;
+    padding-bottom: 15px;
+    font-size: 20px;
 }
 /* The sidebar menu */
 .main {
@@ -28,18 +46,28 @@ ADDRESS {
 
 /*.container содержимое контейнера по вкладкам */
 .container > div {
-    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
     padding: 20px;
-    background: rgba(0, 0, 0, 50%);
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 /*.flex панелька с кнопками */
-.flex { display: -webkit-box; display: -ms-flexbox; display: flex; background: #363636 }
+.flex {
+    display: -webkit-box; display: -ms-flexbox; display: flex;
+    background: #1f1f1f;
+    margin-right: 20%;
+    margin-left: 20%;
+}
 html, body, .wrap { height: 100%; line-height: 1;}
-.wrap { position: relative; margin: 0 auto; padding-top: 50px;}
+.wrap {
+    position: relative; margin: 0 auto; padding-top: 50px;}
 
 /* tabsmenu */
-.tabsmenu { margin-bottom: -1px;margin-top: 10px}
-.tabsmenu li { width: 100px; height: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 15px; color: #fff; -webkit-user-select:none; user-select:none; cursor: pointer; }
-.tabsmenu .active { color: #fff; background: #515E63; border-radius: 5px 5px 0 0; cursor: default; }
-.container > div { margin-bottom: 50px; padding: 20px; }
+.tabsmenu {
+    margin-bottom: -1px;margin-top: 10px}
+.tabsmenu li { width: 32%; height: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 16px; color: #fff; -webkit-user-select:none; user-select:none; cursor: pointer; }
+.tabsmenu .active { color: #fff; background: #404448; border-radius: 5px 5px 5px 5px; cursor: default; }
+.container > div {
+    margin-bottom: 50px; padding: 20px; }
