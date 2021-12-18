@@ -1,7 +1,7 @@
 BODY {
-    background-image: url(back.jpg);
+    image-border-collapse: collapse;
     background-repeat: repeat;
-    font-family: "Georgia";
+    font-family: "Comic Sans MS";
     font-size: 14px;
 }
 
@@ -19,15 +19,50 @@ H1 {
 .tdUp{
     text-align: left;
     background: #FFFFFF;
-    width: 113px;
+    width: 200px;
     vertical-align: top;
+    font-family: Verdana, serif;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
 }
 
 .tdLow {
     text-align: left;
     background: #333333;
-    width: 113px;
+    width: 200px;
     vertical-align: top;
+    font-family: Verdana, serif;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Georgia";
+}
+
+.transparent{
+    background-color: #ffffff;
+    opacity: .0;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fcf97a;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:active {
+    color: #fcf97a;
+    text-decoration: none;
 }
 
 ADDRESS {
@@ -49,8 +84,11 @@ ADDRESS {
     margin-right: 20%;
     margin-left: 20%;
     padding: 20px;
+    font-size: 16px;
     text-align: justify;
     background: rgba(0, 0, 0, 0.7);
+    border-style: groove;
+    border-width: 2px;
 }
 
 /*.flex панелька с кнопками */
