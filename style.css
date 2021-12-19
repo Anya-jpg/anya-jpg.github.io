@@ -1,3 +1,22 @@
+@media (max-width: 480px) {
+    H1 {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .container > div {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 16px;
+        text-align: justify;
+        background: rgba(0, 0, 0, 0.7);
+        border-style: groove;
+        border-width: 2px;
+    }
+}
+
 BODY {
     image-border-collapse: collapse;
     background-repeat: repeat;
@@ -23,6 +42,9 @@ H1 {
 }
 H2{
     padding: 5px;
+}
+H3{
+    color: #FCF97AFF;
 }
 .tdUp{
     text-align: left;
@@ -96,6 +118,9 @@ ADDRESS {
 #head{
     font-family: "Arial Black", serif;
     font-size: 25px;
+    color: #FCF97AFF;
+}
+LH{
     color: #FCF97AFF;
 }
 /*.container содержимое контейнера по вкладкам */

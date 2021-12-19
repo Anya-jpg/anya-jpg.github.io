@@ -27,3 +27,10 @@
     padding-left: 40px;
     line-height: 2em;
 }
+.reiziger {
+    list-style: none;
+    background: url(reiziger.jpg) no-repeat 0 5px;
+    background-size: contain;
+    padding-left: 40px;
+    line-height: 2em;
+}
