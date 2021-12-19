@@ -2,19 +2,27 @@ BODY {
     image-border-collapse: collapse;
     background-repeat: repeat;
     font-family: "Comic Sans MS";
-    font-size: 14px;
+}
+
+section {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
 }
 
 div {
     color: #fff;
-    padding: 5px;
-    font-size: 20px;
+    font-size: 16px;
 }
+
 
 H1 {
     color: #fff;
     margin-right: 20%;
     margin-left: 20%;
+}
+H2{
+    padding: 5px;
 }
 .tdUp{
     text-align: left;
@@ -24,7 +32,6 @@ H1 {
     font-family: Verdana, serif;
     color: #000000;
     font-size: 14px;
-    text-align: center;
 }
 
 .tdLow {
@@ -35,13 +42,12 @@ H1 {
     font-family: Verdana, serif;
     color: #000000;
     font-size: 14px;
-    text-align: center;
 }
 
 .table{
     margin-right: 10%;
     margin-left: 10%;
-    font-family: "Georgia";
+    font-family: Georgia;
 }
 
 .transparent{
@@ -78,11 +84,25 @@ ADDRESS {
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
+.head{
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.7);
+    border-style: groove;
+    border-width: 2px;
 
+}
+#head{
+    font-family: "Arial Black", serif;
+    font-size: 25px;
+    color: #FCF97AFF;
+}
 /*.container содержимое контейнера по вкладкам */
 .container > div {
     margin-right: 20%;
     margin-left: 20%;
+    margin-top: 10px;
     padding: 20px;
     font-size: 16px;
     text-align: justify;
